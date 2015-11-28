@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20718F801C098EA8007123E6 /* hehe.png in Resources */ = {isa = PBXBuildFile; fileRef = 20718F7F1C098EA8007123E6 /* hehe.png */; };
 		20EC182A1C0801B900E73D33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EC18291C0801B900E73D33 /* main.m */; };
 		20EC182D1C0801B900E73D33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EC182C1C0801B900E73D33 /* AppDelegate.m */; };
 		20EC18301C0801B900E73D33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EC182F1C0801B900E73D33 /* ViewController.m */; };
 		20EC18331C0801B900E73D33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20EC18311C0801B900E73D33 /* Main.storyboard */; };
 		20EC18351C0801B900E73D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20EC18341C0801B900E73D33 /* Assets.xcassets */; };
 		20EC18381C0801B900E73D33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20EC18361C0801B900E73D33 /* LaunchScreen.storyboard */; };
+		20EC18411C08020800E73D33 /* TheIodineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EC18401C08020800E73D33 /* TheIodineView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20718F7F1C098EA8007123E6 /* hehe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hehe.png; sourceTree = "<group>"; };
 		20EC18251C0801B900E73D33 /* shapeFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shapeFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20EC18291C0801B900E73D33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		20EC182B1C0801B900E73D33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +29,8 @@
 		20EC18341C0801B900E73D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20EC18371C0801B900E73D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20EC18391C0801B900E73D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20EC183F1C08020800E73D33 /* TheIodineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheIodineView.h; sourceTree = "<group>"; };
+		20EC18401C08020800E73D33 /* TheIodineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheIodineView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +72,8 @@
 				20EC18361C0801B900E73D33 /* LaunchScreen.storyboard */,
 				20EC18391C0801B900E73D33 /* Info.plist */,
 				20EC18281C0801B900E73D33 /* Supporting Files */,
+				20EC183F1C08020800E73D33 /* TheIodineView.h */,
+				20EC18401C08020800E73D33 /* TheIodineView.m */,
 			);
 			path = shapeFrame;
 			sourceTree = "<group>";
@@ -74,6 +81,7 @@
 		20EC18281C0801B900E73D33 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				20718F7F1C098EA8007123E6 /* hehe.png */,
 				20EC18291C0801B900E73D33 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -137,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20EC18381C0801B900E73D33 /* LaunchScreen.storyboard in Resources */,
+				20718F801C098EA8007123E6 /* hehe.png in Resources */,
 				20EC18351C0801B900E73D33 /* Assets.xcassets in Resources */,
 				20EC18331C0801B900E73D33 /* Main.storyboard in Resources */,
 			);
@@ -151,6 +160,7 @@
 			files = (
 				20EC18301C0801B900E73D33 /* ViewController.m in Sources */,
 				20EC182D1C0801B900E73D33 /* AppDelegate.m in Sources */,
+				20EC18411C08020800E73D33 /* TheIodineView.m in Sources */,
 				20EC182A1C0801B900E73D33 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +274,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = shapeFrame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ouzhenxuan.shapeFrame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +286,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = shapeFrame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ouzhenxuan.shapeFrame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +312,7 @@
 				20EC183E1C0801B900E73D33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
